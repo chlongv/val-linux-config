@@ -47,9 +47,9 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " powerline
-python3 from powerline.vim import setup as powerline_setup
-python3 powerline_setup()
-python3 del powerline_setup
+"python3 from powerline.vim import setup as powerline_setup
+"python3 powerline_setup()
+"python3 del powerline_setup
 set laststatus=2 " Always display the statusline in all windows
 set showtabline=2 " Always display the tabline, even if there is only one tab
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
@@ -81,4 +81,4 @@ set smartindent
 au BufEnter * :checktime
 
 " we use pathogen for managing the runtimepath
-execute pathogen#infect()
+"execute pathogen#infect()
